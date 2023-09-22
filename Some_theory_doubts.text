@@ -1,3 +1,8 @@
 Why index is starts at 0?
 why Strings are immutable?
 Why Strings are null and integers are not?
+Why integers are not immutable like Strings?
+  Because if integers are also going to be immutable then we have to create a new int object everytime we are donig something that will take a lots of space and time 
+  Second point is we can casually add integer to integer like 1 + 1 = 2 but when integers are immutable we need to create an new int object just to do some operation between them
+  Third point is many libraries and codes are made in way that they follow the mutability of integers so if integers becomes immutable then those libraries started causes error stopping the everything they are doing
+
